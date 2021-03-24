@@ -53,6 +53,7 @@ namespace AdoNetDataBase
         {
             _currentTable = _tableNames[index];
             //создать объект необходимого типа
+
             return new List<TableInfo>();
         }              
 
@@ -65,5 +66,8 @@ namespace AdoNetDataBase
         {
             _connection?.Dispose();
         }
+
+        
+       
     }
 }

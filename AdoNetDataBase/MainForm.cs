@@ -34,8 +34,7 @@ namespace AdoNetDataBase
             }
             else
             {
-                SetInfoUser("Failure try again late", Color.Red);
-                
+                SetInfoUser("Failure try again late", Color.Red);                
             }
         }
 
